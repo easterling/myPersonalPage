@@ -1,5 +1,4 @@
 /************************TAG SELETORS ******************************/
-
 body {
   margin: 0;
   font-family: 'Merriweather', serif;
@@ -29,7 +28,6 @@ h4 {
   margin-top: 0;
 }
 
-
 p {
   font-family: 'Merriweather', serif;
   color: #ffffff;
@@ -40,90 +38,23 @@ td {
   padding-right: 20px;
 }
 
-
-
 /***********************CLASS SELETORS ******************************/
-.page1-container {
-  /*background-image: url("../images/imgKeyBoard.jpg");*/
+.main-container {
+  position: relative;
+  margin: 0;
+  width: auto;
+  height: 200em;
   background-color: #000000;
-  width: 100%;
-  height: 780px;
-}
-
-.img-sitelogo {
-  width: 600px;
-  height: 450px;
-}
-
-.introduction {
-  height: 400px;
-  width: 400px;
-  position: absolute;
-  left: 320px;
-  top: 440px;
-  }
-
-.p-intro {
-  font-family: 'Merriweather', serif;
-  color: #616f39;
-}
-
-.page2-container {
-  background-color: #3e432e;
-  width: 100%;
-  height: 2075px;
-}
-
-.page2-title {
-  position: absolute;
-  left: 400px;
-  top: 860px;
-  font-family: 'Montserrat',  sans-serif;
-  color: #ffffff;
-}
-
-
-.div-decoration-box1 {
-  position: absolute;
-  left: 492px;
-  top: 1427px;
-  width: 50px;
-  height: 50px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #616f39 #000000 #000000 #616f39;
-  background-color: #3e432e;
-}
-
-.div-decoration-box2 {
-  position: absolute;
-  left: 492px;
-  top: 1879px;
-  width: 50px;
-  height: 50px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #616f39 #000000 #000000 #616f39;
-  background-color: #3e432e;
-}
-
-.div-decoration-box3 {
-  position: absolute;
-  left: 492px;
-  top: 2332px;
-  width: 50px;
-  height: 50px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #616f39 #000000 #000000 #616f39;
-  background-color: #3e432e;
 }
 
 .menu-container {
-  height: 50px;
   width: 100%;
+  height: 5em;
   position: absolute;
-  top: 0;
+  margin-left: auto;
+  margin-top: 0;
+  background-color: #000000;
+  z-index: 1;
 }
 
 .menu-links {
@@ -132,217 +63,155 @@ td {
 
 .menu-text {
   position: absolute;
-  right: 10px;
-  top: 10px;
-}
-.footer-container {
-  height: 110px;
-  width: 100%;
-  background-color: #000000;
+  right: 1em;
+  top: 1em;
 }
 
 .footer-menu {
+  width: 100%;
+  height: 5em;
   position: absolute;
-  left: 330px;
-  top: 2875px;
+  left: 0;
+  bottom: 0;
   background-color: #000000;
 }
 
 .footer-p {
   font-family: 'Merriweather', serif;
   color: #616f39;
+  text-align: center;
+  margin: 0;
+}
+
+.page1-container {
+  width: 100%;
+  height: 5em;
   position: absolute;
-  left: 350px;
-  top: 2925px;
-  }
+  margin-left: auto;
+  margin-top: 5em;
+  background-color: #000000;
+}
+
+.img-keyboard-container {
+  width: 100%;
+  height: 17em;
+}
 
 .img-keyboard {
   width: 100%;
-  height: 400px;
-  position: absolute;
-  top: 51px;
-  left: 0;
+  height: 12em;
 }
 
-.img-name {
-  width: 175px;
-  height: 175px;
-  position: absolute;
-  left: 233px;
-  top: 240px;
+.introduction-container {
+  width: 31em;
+  height: 30em;
+  position: relative;
+  margin: auto;
+  top: 17.2em;
+  z-index: 3;
 }
 
-.img-ProductOffering {
-  width: 300px;
-  height: 300px;
+.h3-intro {
+  font-family: 'Montserrat', serif;
+  font-weight: 900;
+  color: #616f39;
+
+}
+
+.h3-signature {
+  font-family: 'Sacramento', cursive;
+  color: #616f39;
+  font-size: 3.2em;
+  text-align: right;
+}
+
+.page2-container {
+  width: 100%;
+  height: 153em;
   position: absolute;
-  left: 50px;
-  top: 250px;
+  margin-left: auto;
+  margin-top: 41em;
+  background-color: #3e432e;
+}
+
+.page2-title {
+  position: relative;
+  text-align: center;
+  margin-top: 2.8em;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
 }
 
 .ba-div {
-  position: absolute;
-  left: 25px;
-  top: 1000px;
-  width: 490px;
-  height: 450px;
+  width: 30em;
+  height: 30em;
+  position: relative;
+  margin: auto;
+  top: 5em;
+  text-align: center;
+
+
+
   border-style: solid;
   border-width: 2px;
-  border-color: #616f39 #000000 #000000 #616f39;
-  text-align: center;
-}
-
-.ba-img-div {
-  position: absolute;
-  left: 565px;
-  top: 800px;
-  width: 400px;
-  height: 400px;
-  border-style: none;
+  border-color: #000000;
+  background-color: #3e432e;
 }
 
 .map-div {
-  position: absolute;
-  left: 518px;
-  top: 1453px;
-  width: 490px;
-  height: 450px;
+  width: 30em;
+  height: 30em;
+  position: relative;
+  margin: auto;
+  top: 10em;
+  text-align: center;
+
+
+
   border-style: solid;
   border-width: 2px;
-  border-color: #616f39 #000000 #000000 #616f39;
-  text-align: center;
-}
-
-.map-img-div {
-  position: absolute;
-  left: 75px;
-  top: 1253px;
-  width: 400px;
-  height: 400px;
-  border-style: none;
+  border-color: #000000;
+  background-color: #3e432e;
 }
 
 .bp-div {
-  position: absolute;
-  left: 25px;
-  top: 1905px;
-  width: 490px;
-  height: 450px;
+  width: 30em;
+  height: 30em;
+  position: relative;
+  margin: auto;
+  top: 15em;
+  text-align: center;
+
+
+
   border-style: solid;
   border-width: 2px;
-  border-color: #616f39 #000000 #000000 #616f39;
-  text-align: center;
-}
+  border-color: #000000;
+  background-color: #3e432e;
 
-.bp-img-div {
-  position: absolute;
-  left: 565px;
-  top: 1705px;
-  width: 400px;
-  height: 400px;
-  border-style: none;
 }
 
 .dev-div {
-  position: absolute;
-  left: 518px;
-  top: 2358px;
-  width: 490px;
-  height: 450px;
+  width: 30em;
+  height: 30em;
+  position: relative;
+  margin: auto;
+  top: 20em;
+  text-align: center;
+
+
+
   border-style: solid;
   border-width: 2px;
-  border-color: #616f39 #000000 #000000 #616f39;
-  text-align: center;
+  border-color: #000000;
+  background-color: #3e432e;
+
 }
 
-.dev-img-div {
-  position: absolute;
-  left: 75px;
-  top: 2175px;
-  width: 400px;
-  height: 400px;
-  border-style: none;
-}
-
-.Offering-Left-h2 {
-  position: absolute;
-  left: 15px;
-  top: 10px;
-  font-family: 'Montserrat',  sans-serif;
-  color: #ffffff;
-}
-
-.Offering-Right-h2 {
-  position: absolute;
-  left: 45px;
-  top: 10px;
-  font-family: 'Montserrat',  sans-serif;
-  color: #ffffff;
-}
-
-.map-h2 {
-  position: absolute;
-  left: 10px;
-  top: 2370px;
-  font-family: 'Montserrat',  sans-serif;
-  color: #616f39;
-}
-
-.bp-h1 {
-  font-family: 'Montserrat',  sans-serif;
-  color: #616f39;
-}
-
-.dev-h1 {
-  font-family: 'Montserrat',  sans-serif;
-  color: #616f39;
-}
-
-.pagetags {
+.img-formating {
+  position: relative;
   margin: 0;
-  color: #ffffff;
+  width: 150px;
+  height: 150px;
+  float: left;
 }
-
-
-
-
-
-
-
-/*
-.ba-h1 {
-  position: absolute;
-  left: 100px;
-  top: 450px;
-  font-family: 'Montserrat', cursive;
-  color: #616f39;
-}
-
-.map-h1 {
-  position: absolute;
-  right: 50px;
-  top: 540px;
-  font-family: 'Montserrat', cursive;
-  color: #616f39;
-}
-
-.bp-h1 {
-  position: absolute;
-  left: 45px;
-  top: 640px;
-  font-family: 'Montserrat', cursive;
-  color: #616f39;
-}
-
-.dev-h1 {
-  position: absolute;
-  right: 100px;
-  top: 720px;
-  font-family: 'Montserrat', cursive;
-  color: #616f39;
-}
-*/
-
-/* NOTES:
-
-  1.  To make sure that all text fields have the same font settings by default, textareas have a monospace font */

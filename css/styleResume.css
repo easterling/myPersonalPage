@@ -67,14 +67,14 @@ textarea {
   height: 5em;
 }
 
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 1.2em;
+  color: #000000;
+}
 
 /***********************CLASS SELETORS ******************************/
 /*(Note: Applie the same style to a group of related elements)*/
-
-.div-MainPage {
-margin: 20px;
-}
-
 
 .button {
   /* Align buttons with the text fields */
@@ -97,10 +97,19 @@ margin: 20px;
   margin: 0;
 }
 
+.td-spacing {
+  padding-right: 2em;
+}
 
 /***********************ID SELETORS******************************/
 /*(Note: Applie to a specific style to a singal element on a page)*/
 
+#mainPage-container{
+margin: 5em;
+background-color: #dcdcdc;
+border: solid 4px #4f81bd;
+padding: 5em 5em
+}
 
 
 

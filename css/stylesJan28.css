@@ -35,7 +35,12 @@ p {
 }
 
 td {
-  padding-right: 10px;
+  padding-right: 20px;
+}
+
+a:hover {
+  font-size: 110%;
+
 }
 
 h4:hover {
@@ -45,101 +50,22 @@ h4:hover {
 }
 
 /***********************CLASS SELETORS ******************************/
-
-.h2-format {
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  margin: auto;
-}
-
 .ba-div {
-  overflow: hidden;
-  width: auto;
-  height: auto;
+  width: 40%;
+  height: 20em;
   position: absolute;
   margin-top: 0;
   margin-left: 10%;
   text-align: center;
 }
 
-.ba-div .ba-caption{
-  position: absolute;
-  top: -500px;
-  height: 100%;
-  width: 100%;
-  background: #3e432eb3;
-  transition: 0.7s;
-  text-align: center;
-    }
-
-.ba-div .ba-caption .ba-content {
-  position: relative;
-  top: 21%;
-  color: #fff;
-}
-
-.ba-div:hover .ba-caption {
-  top: 0;
-}
-
 .bp-div {
-  overflow: hidden;
-  width: auto;
-  height: auto;
+  width: 40%;
+  height: 20em;
   position: absolute;
   margin-top: 0;
-  margin-left: 60%;
+  margin-left: 53%;
   text-align: center;
-}
-
-.bp-div .bp-caption{
-  position: absolute;
-  top: -500px;
-  height: 100%;
-  width: 100%;
-  background: #3e432eb3;
-  transition: 0.7s;
-  text-align: center;
-}
-
-.bp-div .bp-caption .bp-content {
-  position: relative;
-  top: 21%;
-  color: #fff;
-}
-
-.bp-div:hover .bp-caption {
-  top: 0;
-}
-
-.dev-div {
-  overflow: hidden;
-  width: auto;
-  height: auto;
-  position: absolute;
-  margin-left: 60%;
-  margin-top: 22em;
-  text-align: center;
-}
-
-.dev-div .dev-caption{
-  position: absolute;
-  top: 150%;
-  height: 100%;
-  width: 100%;
-  background: #3e432eb3;
-  transition: 0.7s;
-  text-align: center;
-}
-
-.dev-div .dev-caption .dev-content {
-  position: relative;
-  top: 21%;
-  color: #fff;
-}
-
-.dev-div:hover .dev-caption {
-  top: 0;
 }
 
 .copyright-container {
@@ -151,6 +77,16 @@ h4:hover {
   margin-top: 99em;
   background-color: #000000;
   z-index: 3;
+
+}
+
+.dev-div {
+  width: 40%;
+  height: 20em;
+  position: absolute;
+  margin-left: 53%;
+  margin-top: 22em;
+  text-align: center;
 }
 
 .footer-container {
@@ -159,7 +95,7 @@ h4:hover {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 96.4em;
+  margin-top: 96em;
   background-color: #000000;
   z-index: 2;
 }
@@ -186,10 +122,21 @@ h4:hover {
   position: relative;
   margin-left: auto;
   margin-top: 3em;
-  width: 28vw;
-  height: 35vh;
+  width: 25em;
+  height: 19.3em;
   float: none;
 }
+
+/*
+.img-formating {
+  position: relative;
+  margin-left: auto;
+  margin-top: 3em;
+  width: 40%;
+  height: 40%;
+  float: none;
+}
+*/
 
 .img-keyboard-container {
   width: 100vw;
@@ -211,33 +158,12 @@ h4:hover {
 }
 
 .map-div {
-  overflow: hidden;
-  width: auto;
-  height: auto;
+  width: 40%;
+  height: 20em;
   position: absolute;
   margin-left: 10%;
   margin-top: 22em;
   text-align: center;
-}
-
-.map-div .map-caption{
-  position: absolute;
-  top: 150%;
-  height: 100%;
-  width: 100%;
-  background: #3e432eb3;
-  transition: 0.7s;
-  text-align: center;
-}
-
-.map-div .map-caption .map-content {
-  position: relative;
-  top: 21%;
-  color: #fff;
-}
-
-.map-div:hover .map-caption {
-  top: 0;
 }
 
 .menu-container {
@@ -273,7 +199,7 @@ h4:hover {
 
 .page2-container {
   width: 100vw;
-  height: 53.7em;
+  height: 53.5em;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -284,12 +210,10 @@ h4:hover {
 .page2-title {
   position: relative;
   text-align: center;
-  margin-top: .5em;
+  margin-top: 1.3em;
   font-family: 'Montserrat', sans-serif;
-
-  font-size: 44px;
-  font-weight: 900;
-  color: #616f39;
+  text-decoration: underline;
+  color: #000000;
 }
 
 
