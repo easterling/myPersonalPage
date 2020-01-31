@@ -203,7 +203,7 @@ h4:hover {
 
 .img-keyboard {
   width: 100vw;
-  height: 9.5em;
+  height: 10em;
 }
 
 .introduction-container {
@@ -248,7 +248,7 @@ h4:hover {
 
 .menu-container {
   width: 100vw;
-  height: 5em;
+  height: 4em;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -269,11 +269,11 @@ h4:hover {
 
 .page1-container {
   width: 100vw;
-  height: 40em;
+  height: 41em;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5em;
+  margin-top: 4em;
   background-color: #000000;
 }
 
