@@ -52,7 +52,6 @@ h4:hover {
   color: #ffffff;
   margin: auto;
   padding: 0;
-  z-index: 4;
 }
 
 .ba-div {
@@ -63,6 +62,7 @@ h4:hover {
   margin-top: 0;
   margin-left: 5%;
   text-align: center;
+  z-index: 4;
 }
 
 .ba-div .ba-caption{
@@ -73,7 +73,7 @@ h4:hover {
   background: #3e432eb3;
   transition: 0.7s;
   text-align: center;
-    }
+}
 
 .ba-div .ba-caption .ba-content {
   position: relative;
@@ -93,6 +93,7 @@ h4:hover {
   margin-top: 0;
   margin-left: 53%;
   text-align: center;
+  z-index: 5;
 }
 
 .bp-div .bp-caption{
@@ -123,6 +124,7 @@ h4:hover {
   margin-left: 53%;
   margin-top: 27em;
   text-align: center;
+  z-index: 6;
 }
 
 .dev-div .dev-caption{
@@ -190,7 +192,7 @@ h4:hover {
   margin-left: auto;
   margin-top: .0;
   width: 35vw;
-  height: 35vh;
+  height: auto;
   float: none;
 }
 
@@ -221,6 +223,7 @@ h4:hover {
   margin-left: 5%;
   margin-top: 27em;
   text-align: center;
+  z-index: 7;
 }
 
 .map-div .map-caption{
@@ -299,7 +302,7 @@ h4:hover {
 /***********************ID SELETORS ******************************/
 #aboutPage-container {
   width: 100vw;
-  height: 107em;
+  height: 104em;
   margin-left: auto;
   margin-right: auto;
   background-color: #000000;
