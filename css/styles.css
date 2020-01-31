@@ -305,5 +305,6 @@ h4:hover {
   height: 125em;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
   background-color: #000000;
 }
