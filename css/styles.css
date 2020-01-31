@@ -55,7 +55,7 @@ h4:hover {
 
 .ba-div {
   overflow: hidden;
-  width: auto;
+  width: 40vw;
   height: auto;
   position: absolute;
   margin-top: 0;
@@ -85,7 +85,7 @@ h4:hover {
 
 .bp-div {
   overflow: hidden;
-  width: auto;
+  width: 40vw;
   height: auto;
   position: absolute;
   margin-top: 0;
@@ -115,7 +115,7 @@ h4:hover {
 
 .dev-div {
   overflow: hidden;
-  width: auto;
+  width: 40vw;
   height: auto;
   position: absolute;
   margin-left: 60%;
@@ -213,7 +213,7 @@ h4:hover {
 
 .map-div {
   overflow: hidden;
-  width: auto;
+  width: 40vw;
   height: auto;
   position: absolute;
   margin-left: 12%;
