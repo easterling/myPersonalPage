@@ -203,7 +203,7 @@ h4:hover {
 
 .img-keyboard {
   width: 100vw;
-  height: 10em;
+  height: 9.5em;
 }
 
 .introduction-container {
@@ -211,7 +211,7 @@ h4:hover {
   height: 30%;
   position: relative;
   margin: auto;
-  margin-top: 17%;
+  margin-top: 18%;
   z-index: 3;
 }
 
@@ -279,7 +279,7 @@ h4:hover {
 
 .page2-container {
   width: 100vw;
-  height: 77.5em;
+  height: 77.7em;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
