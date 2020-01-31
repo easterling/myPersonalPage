@@ -117,10 +117,10 @@ h4:hover {
 .dev-div {
   overflow: hidden;
   width: 35vw;
-  height: auto;
+  height: 35vh;
   position: absolute;
   margin-left: 53%;
-  margin-top: 25em;
+  margin-top: 27em;
   text-align: center;
 }
 
@@ -187,9 +187,9 @@ h4:hover {
 .img-formating {
   position: relative;
   margin-left: auto;
-  margin-top: 1em;
+  margin-top: .0;
   width: 35vw;
-  height: 40vh;
+  height: 43vh;
   float: none;
 }
 
@@ -215,10 +215,10 @@ h4:hover {
 .map-div {
   overflow: hidden;
   width: 35vw;
-  height: auto;
+  height: 35vh;
   position: absolute;
   margin-left: 5%;
-  margin-top: 25em;
+  margin-top: 27em;
   text-align: center;
 }
 
