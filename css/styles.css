@@ -56,7 +56,7 @@ h4:hover {
 
 .ba-div {
   overflow: hidden;
-  width: 43vw;
+  width: 35vw;
   height: auto;
   position: absolute;
   margin-top: 0;
@@ -86,7 +86,7 @@ h4:hover {
 
 .bp-div {
   overflow: hidden;
-  width: 43vw;
+  width: 35vw;
   height: auto;
   position: absolute;
   margin-top: 0;
@@ -116,11 +116,11 @@ h4:hover {
 
 .dev-div {
   overflow: hidden;
-  width: 43vw;
+  width: 35vw;
   height: auto;
   position: absolute;
   margin-left: 53%;
-  margin-top: 22em;
+  margin-top: 25em;
   text-align: center;
 }
 
@@ -150,18 +150,18 @@ h4:hover {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 99em;
+  margin-top: 103em;
   background-color: #000000;
   z-index: 3;
 }
 
 .footer-container {
   width: 100vw;
-  height: 3em;
+  height: 5em;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 96.4em;
+  margin-top: 100em;
   background-color: #000000;
   z-index: 2;
 }
@@ -187,9 +187,9 @@ h4:hover {
 .img-formating {
   position: relative;
   margin-left: auto;
-  margin-top: 3em;
-  width: 43vw;
-  height: 35vh;
+  margin-top: 1em;
+  width: 35vw;
+  height: 40vh;
   float: none;
 }
 
@@ -214,11 +214,11 @@ h4:hover {
 
 .map-div {
   overflow: hidden;
-  width: 43vw;
+  width: 35vw;
   height: auto;
   position: absolute;
   margin-left: 5%;
-  margin-top: 22em;
+  margin-top: 25em;
   text-align: center;
 }
 
@@ -275,7 +275,7 @@ h4:hover {
 
 .page2-container {
   width: 100vw;
-  height: 53.7em;
+  height: 57.5em;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -298,7 +298,7 @@ h4:hover {
 /***********************ID SELETORS ******************************/
 #aboutPage-container {
   width: 100vw;
-  height: 101em;
+  height: 104em;
   margin-left: auto;
   margin-right: auto;
   background-color: #000000;
