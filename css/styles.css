@@ -59,7 +59,7 @@ h4:hover {
   height: auto;
   position: absolute;
   margin-top: 0;
-  margin-left: 10%;
+  margin-left: 12%;
   text-align: center;
 }
 
@@ -187,8 +187,8 @@ h4:hover {
   position: relative;
   margin-left: auto;
   margin-top: 3em;
-  width: 28vw;
-  height: 40vh;
+  width: 33vw;
+  height: 35vh;
   float: none;
 }
 
@@ -216,7 +216,7 @@ h4:hover {
   width: auto;
   height: auto;
   position: absolute;
-  margin-left: 10%;
+  margin-left: 12%;
   margin-top: 22em;
   text-align: center;
 }
