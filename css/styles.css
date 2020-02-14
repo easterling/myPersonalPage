@@ -28,10 +28,18 @@ h4 {
   margin-top: 0;
 }
 
+h5 {
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  margin-top: 0;
+}
+
 p {
   font-family: 'Merriweather', serif;
   color: #ffffff;
   margin: 0;
+  line-height: 2;
+  font-size: 20px;
 }
 
 td {
@@ -46,127 +54,141 @@ h4:hover {
 
 /***********************CLASS SELETORS ******************************/
 
-.h2-format {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  color: #ffffff;
+.h5-headingFormat {
+  width: 100%;
+  height: auto;
   margin: auto;
-  padding: 0;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+
+  text-align: center;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #616f39;
+
+
+}
+
+.p-contentFormat {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: #616f39;
+
+
+border: none 2px red;
+
+}
+
+.h2-headingFormatLeft {
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #000;
+  margin-top: 2%;
+  margin-left: 48%;
+  text-align: center;
+}
+
+.p-contentFormatRight {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  color: #616f39;
+
+
 }
 
 .ba-div {
-  overflow: hidden;
-  width: 35vw;
-  height: 55vh;
-  position: absolute;
-  margin-top: 0;
-  margin-left: 5%;
-  text-align: center;
-  z-index: 4;
-}
-
-.ba-div .ba-caption{
-  position: absolute;
-  top: -555px;
-  height: 100%;
-  width: 100%;
-  background: #3e432eb3;
-  transition: 0.7s;
-  text-align: center;
-}
-
-.ba-div .ba-caption .ba-content {
+  width: 60%;
+  height: 30em;
   position: relative;
-  top: 21%;
-  color: #fff;
+  margin-left: 8%;
+  margin-right: auto;
+  margin-top: 10em;
+
+  border-style: none;
+  border-width: 2px;
+  border-color: red;
 }
 
-.ba-div:hover .ba-caption {
-  top: 0;
+.map-div {
+  width: 60%;
+  height: 30em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 46em;
+
+  border-style: none;
+  border-width: 2px;
+  border-color: red;
 }
 
 .bp-div {
-  overflow: hidden;
-  width: 35vw;
-  height: 55vh;
-  position: absolute;
-  margin-top: 0;
-  margin-left: 60%;
-  text-align: center;
-  z-index: 5;
-}
-
-.bp-div .bp-caption{
-  position: absolute;
-  top: -555px;
-  height: 100%;
-  width: 100%;
-  background: #3e432eb3;
-  transition: 0.7s;
-  text-align: center;
-}
-
-.bp-div .bp-caption .bp-content {
+  width: 60%;
+  height: 30em;
   position: relative;
-  top: 21%;
-  color: #fff;
-}
+  margin-left: 8%;
+  margin-right: auto;
+  margin-top: 48em;
 
-.bp-div:hover .bp-caption {
-  top: 0;
+  border-style: none;
+  border-width: 2px;
+  border-color: red;
 }
 
 .dev-div {
-  overflow: hidden;
-  width: 35vw;
-  height: 55vh;
-  position: absolute;
-  margin-left: 60%;
-  margin-top: 36.5em;
-  text-align: center;
-  z-index: 6;
-}
-
-.dev-div .dev-caption{
-  position: absolute;
-  top: 150%;
-  height: 100%;
-  width: 100%;
-  background: #3e432eb3;
-  transition: 0.7s;
-  text-align: center;
-}
-
-.dev-div .dev-caption .dev-content {
+  width: 60%;
+  height: 30em;
   position: relative;
-  top: 21%;
-  color: #fff;
-}
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55em;
 
-.dev-div:hover .dev-caption {
-  top: 0;
+  border-style: none;
+  border-width: 2px;
+  border-color: red;
 }
 
 .copyright-container {
-  width: 100vw;
+  width: 100%;
   height: 2em;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 122.5em;
+  margin-top: 167.5em;
   background-color: #000000;
   z-index: 3;
 }
 
 .footer-container {
-  width: 100vw;
+  width: 100%;
   height: 5em;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 120em;
+  margin-top: 165em;
+  padding-top: .5em;
   background-color: #000000;
   z-index: 2;
+
 }
 
 .footer-p {
@@ -178,6 +200,8 @@ h4:hover {
 .h3-intro {
   font-family: 'Merriweather', serif;
   color: #616f39;
+  line-height: 2;
+  margin: 0;
 }
 
 .h3-signature {
@@ -187,74 +211,177 @@ h4:hover {
   text-align: right;
 }
 
-.img-formating {
+.img-ArrowFormating {
+  position: absolute;
+  margin-left: 45.4%;
+  margin-right: auto;
+  margin-top: 6%;
+  width: 15%;
+  height: 20%;
+
+
+}
+
+.img-baFormating {
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  margin-left:30%;
+  margin-top: 8em;
+
+  border: 2px none red;
+
+}
+
+.img-mapFormating {
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  margin-left: 29.5%;
+  margin-top: 6em;
+
+  border: 2px none red;
+
+}
+
+.img-bpFormating {
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  margin-left:30%;
+  margin-top: 12em;
+
+  border: 2px none red;
+
+}
+
+.img-devFormating {
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  margin-left: 29.5%;
+  margin-top: 12em;
+
+  border: 2px none red;
+
+}
+
+.img-line1Formating {
+  width: 20%;
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 16em;
+
+  z-index: 1;
+
+}
+
+.img-line2Formating {
+  width: 20%;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 55em;
+
+  z-index: 1;
+
+}
+
+.img-line3Formating {
+  width: 20%;
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 96em;
+
+  z-index: 1;
+
+}
+
+.img-line4Formating {
+  width: 20%;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 138em;
+
+  z-index: 1;
+
+}
+
+.lineFormating {
+  width: 20%;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: 138em;
+
+  z-index: 1;
+
+}
+
+.img-devBubbleFormating {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 10%;
+  width: 40%;
+  height: 40%;
+}
+
+.img-mapBubbleFormating {
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 10%;
+  width: 40%;
+  height: 40%;
+}
+
+.img-leftFormating {
   position: relative;
-  margin-left: auto;
-  margin-top: .0;
-  width: 35vw;
-  height: 55vh;
-  float: none;
+  margin: 0 0 .5em 1em;
+  width: 15vw;
+  height: 15vh;
+  float: left;
+}
+
+.img-rightFormating {
+  position: relative;
+  margin: 0 0 0 .5em;
+  width: 15vw;
+  height: 15vh;
+  float: right;
 }
 
 .img-keyboard-container {
-  width: 100vw;
-  height: 10em;
+  width: 100%;
+  height: 7%;
+  position: relative;
+  margin-top: 2%;
+
+
 }
 
 .img-keyboard {
-  width: 100vw;
-  height: 10em;
+  width: 100%;
+  height: 100%;
 }
 
 .introduction-container {
-  width: 40%;
-  height: 30%;
+  width: 60%;
+  height: 18%;
   position: relative;
-  margin: auto;
-  margin-top: 18%;
-  z-index: 3;
-}
-
-.map-div {
-  overflow: hidden;
-  width: 35vw;
-  height: 55vh;
-  position: absolute;
-  margin-left: 5%;
-  margin-top: 36.5em;
-  text-align: center;
-  z-index: 7;
-}
-
-.map-div .map-caption{
-  position: absolute;
-  top: 150%;
-  height: 100%;
-  width: 100%;
-  background: #3e432eb3;
-  transition: 0.7s;
-  text-align: center;
-}
-
-.map-div .map-caption .map-content {
-  position: relative;
-  top: 21%;
-  color: #fff;
-}
-
-.map-div:hover .map-caption {
-  top: 0;
-}
-
-.menu-container {
-  width: 100vw;
-  height: 4em;
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
+  z-index: 3;
+
+}
+
+.menu-container {
+  width: 100%;
+  height: 3em;
+  position: absolute;
+  margin-top: 0;
   background-color: #000000;
   z-index: 1;
+
+
 }
 
 .menu-links {
@@ -264,45 +391,65 @@ h4:hover {
 .menu-text {
   position: absolute;
   right: 1em;
-  margin-top: 1em;
+  margin-top: .5em;
 }
 
-.page1-container {
-  width: 100vw;
-  height: 41em;
+.h4-menuText {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+.leftSide-container {
+  width: 50%;
+  height: 169em;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4em;
+  margin-left: 0;
+  margin-top: 0;
   background-color: #000000;
+
 }
 
-.page2-container {
-  width: 100vw;
-  height: 77.7em;
+.rightSide-container {
+  width: 50%;
+  height: 169em;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 42em;
+  margin-left: 50%;
+  margin-top: 0;
   background-color: #3e432e;
+
+}
+
+.Old-leftSide-container {
+  width: 15%;
+  height: 170em;
+  position: absolute;
+  margin-left: 0;
+  margin-top: 0;
+  background-color: #3e432e;
+
+
 }
 
 .page2-title {
+  width: 100%;
   position: relative;
   text-align: center;
   margin-top: .5em;
   font-family: 'Montserrat', sans-serif;
-
   font-size: 44px;
   font-weight: 900;
   color: #616f39;
+
 }
 
 
 /***********************ID SELETORS ******************************/
-#aboutPage-container {
-  width: 100vw;
-  height: 125em;
+#main-container {
+  width: 100%;
+  height: 170em;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
