@@ -227,7 +227,6 @@ border: none 2px red;
   width: 15%;
   height: 20%;
 
-
 }
 
 .img-baFormating {
@@ -446,7 +445,7 @@ border: none 2px red;
   position: relative;
   text-align: center;
   margin-top: .5em;
-  padding-bottom: 1.5;
+  padding-bottom: 1.5em;
   font-family: 'Montserrat', sans-serif;
   font-size: 44px;
   font-weight: 900;
