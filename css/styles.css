@@ -181,7 +181,7 @@ border: none 2px red;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 167.5em;
+  margin-top: 168em;
   background-color: #000000;
   z-index: 3;
 }
@@ -193,7 +193,7 @@ border: none 2px red;
   margin-left: auto;
   margin-right: auto;
   margin-top: 165em;
-  padding-top: .5em;
+  padding-top: 1em;
   background-color: #000000;
   z-index: 2;
 
@@ -446,6 +446,7 @@ border: none 2px red;
   position: relative;
   text-align: center;
   margin-top: .5em;
+  padding-bottom: 1.5;
   font-family: 'Montserrat', sans-serif;
   font-size: 44px;
   font-weight: 900;
