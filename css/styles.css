@@ -37,7 +37,7 @@ h5 {
 hr {
   border-color: #616f39;
   border-style: dotted none none;
-  padding-bottom: 2.8em;
+  padding-bottom: 3em;
   border-width: 7px;
   width: 10%;
 }
@@ -445,7 +445,7 @@ border: none 2px red;
   position: relative;
   text-align: center;
   margin-top: .5em;
-  padding-bottom: 1.8em;
+  padding-bottom: 1em;
   font-family: 'Montserrat', sans-serif;
   font-size: 44px;
   font-weight: 900;
