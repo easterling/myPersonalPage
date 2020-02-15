@@ -34,6 +34,14 @@ h5 {
   margin-top: 0;
 }
 
+hr {
+  border-color: #616f39;
+  border-style: dotted none none;
+  padding-bottom: 3em;
+  border-width: 7px;
+  width: 10%;
+}
+
 p {
   font-family: 'Merriweather', serif;
   color: #ffffff;
