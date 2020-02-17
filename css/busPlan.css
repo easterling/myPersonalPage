@@ -1,0 +1,242 @@
+/************************TAG SELETORS ******************************/
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #616f39;
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: 'Merriweather', sans-serif;
+  color: #616f39;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  text-align: justify;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+hr {
+  border-color: #616f39;
+  border-style: dotted none none;
+  padding-bottom: 3em;
+  border-width: 7px;
+  width: 10%;
+}
+
+nav {
+  width: 100%;
+  height: 5em;
+  position: absolute;
+  background-color: #000;
+  z-index: 1;
+}
+
+nav ul {
+  float: left;
+}
+
+nav img {
+  width: 5em;
+  height: 4em;
+  float: left;
+padding: 5px 9px 5px 10px;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  font-family: 'Montserrat', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 1px 15px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 0 0 4px 4px;
+  z-index: 1;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+    width: 250px;
+    border-radius: 4px;
+}
+
+nav ul li ul a {
+    padding: 10px 10px;
+}
+
+nav ul li ul a:hover {
+    background-color: #3c3c3c;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  margin: 0;
+  line-height: 2;
+  font-size: 20px;
+}
+
+td {
+  padding-right: 10px;
+}
+
+h4:hover {
+  font-size: 115%;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+/***********************CLASS SELETORS ******************************/
+.h1-tempTitle {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  margin-left: 0;
+  margin-top: 15%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 72px;
+  font-weight: bolder;
+  color: red;
+
+}
+
+
+
+.copyright-container {
+  width: 100%;
+  height: 2em;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 97em;
+  background-color: #000000;
+  z-index: 3;
+
+}
+
+.footer-container {
+  width: 100%;
+  height: 5em;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 95em;
+  background-color: #000000;
+  z-index: 2;
+
+
+}
+
+.footer-p {
+  font-family: 'Merriweather', serif;
+  color: #616f39;
+  text-align: center;
+}
+
+.h1-headingFormat {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  position: relative;
+  margin-left: 12%;
+  margin-top: 7%;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #000000;
+
+}
+
+.h4-menuText {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+.img-bpFormating {
+  width: 8%;
+  height: 8%;
+  position: absolute;
+  margin-left:2%;
+  margin-top: 5%;
+
+}
+
+.menu-container {
+  width: 100%;
+  height: 3em;
+  position: absolute;
+  margin-top: 0;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.menu-links {
+  text-decoration: none;
+}
+
+.menu-text {
+  position: absolute;
+  right: 1em;
+  margin-top: .5em;
+}
+
+.page1-container {
+  width: 100%;
+  height: 91.7em;
+  position: absolute;
+  margin-top: 3.2%;
+  background-color: #3e432e;
+
+}
+
+/***********************ID SELETORS ******************************/
+#main-container {
+  width: 100%;
+  height: 100em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #000000;
+
+}
